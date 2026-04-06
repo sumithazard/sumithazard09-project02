@@ -1,6 +1,6 @@
 terraform {
   backend "s3" {
-    bucket       = "dev-aman-tf-bucket"
+    bucket       = "sumit-tf-state-bucket-12345"
     region       = "us-east-1"
     key          = "End-to-End-Kubernetes-DevSecOps-Tetris-Project/Jenkins-Server-TF/terraform.tfstate"
     encrypt      = true
